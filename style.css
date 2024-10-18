@@ -62,3 +62,48 @@
 .list2 .active{
   background: #72D3FF;
 }
+
+.navbar{
+  width: 100%;
+  background: #101014;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar .listInNav{
+  width: 70%;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.navbar .listInNav .listItemInNav .linkInNav{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #656567;
+  text-decoration: none;
+}
+
+.navbar .listInNav .listItemInNav .linkInNav:hover{
+  color: #fff;
+  transition: .5s;
+}
+
+.navbar .listInNav .listItemInNav a .searchStore[type=text]{
+  background-color: #424242;
+  width: 250px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
