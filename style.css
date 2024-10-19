@@ -152,3 +152,34 @@
   line-height: 26px;
   color: rgba(255, 255, 255, 0.65);
 }
+
+/* card container */
+.cardContainer{
+  display: flex;
+  padding-top: 35px;
+  width: 100%;
+  background: #121216;
+  gap: 280px;
+  align-items: center;
+}
+
+.cardContainer .card1 img{
+  cursor: pointer;
+  width: 400px;
+  height: 250px;
+  margin-left: 125px;
+}
+
+.cardContainer .card2 img{
+  cursor: pointer;
+  width: 400px;
+  height: 250px;
+}
+
+.cardContainer .card1 img:hover{
+  opacity: 0.8;
+}
+
+.cardContainer .card2 img:hover{
+  opacity: 0.8;
+}
